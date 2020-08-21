@@ -54,7 +54,7 @@ for _ in range(int(input())):
             del test1[i]
             del test2[j]
             break
-        else : 
+          else : 
             count = count + 0
         # print(count)
     length = length - count

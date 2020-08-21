@@ -1,17 +1,22 @@
-###############################################Reference############################
-##https://www.geeksforgeeks.org/check-whether-large-number-given-form-multiple-3/###
-####################################################################################
-for i in range(int(input())):
+for a in range(int(input())):
     k,d0,d1 = list(map(int,input().split()))
-    # print("k",k,d0,d1)
-    temp = (d0 + d1)
-    N=str(d0)+str(d1)
-    # print(N)
-    mul = 1
-    for j in range(k+1-2):
-        temp = int(temp)
-        mul = mul * 2
-        print(temp)
-        temp =mul%10*(temp%10)
-        N = N + str(temp)
-    print("temp",temp,"N",N)
+    sum = 0
+    sum = str(sum)
+    temp = (d0 + d1)%10
+    sum = str(d0) + str(d1)
+    if (k<3):
+        if int(sum)%3==0:
+            print("YES")
+        else:
+            print("NO")
+    sum = sum + str(temp)
+    times = (k - 3)%d1
+    for i in range(times):
+        temp = (2 * temp)%10
+        sum = sum + str(temp)
+    if int(sum)%3==0:
+        print("YES")
+    else:
+        print("NO")
+
+    
