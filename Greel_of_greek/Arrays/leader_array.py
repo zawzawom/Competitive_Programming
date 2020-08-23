@@ -1,11 +1,12 @@
-import numpy
-for _ in range(int(input())):
-    size = int(input())
+for i in range(int(input())):
+    N = int(input())
     li = list(map(int,input().split()))
-    for i in range(len(li)):
-        for _ in range(i,len(li)):
-           if all(a>=li[i] for a in li):
-               print(li[i],end=' ')
-               del li[i]
-               break
+    m = li[-1]
+    array = [m]
+    for a in range(N-2,-1,-1):
+        if(li[a]>=m):
+            m = li[a]
+            array.append(m)
+    for b in range(len(array)-1,-1,-1):
+        print(array[b],end=" ")
     print()
