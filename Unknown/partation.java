@@ -1,9 +1,9 @@
 
-public class patation
+public class partation
 {
     public static void main(String args[])
     {
-        int floor[][] = {{1,0,0,0},{1,0,1,0},{0,1,1,0},{0,0,0,1}};
+        int floor[][] = {{1,0,1,0},{0,1,1,0},{0,0,0,0},{0,0,0,0}};
         int partition =0;
         // bool partation[4] ={false,false,fa
      for(int i=0;i<floor.length;i++)
@@ -18,7 +18,7 @@ public class patation
 
                 partition++;
                 // i++;
-                break;
+                // break;
             }
            }
             else if(i>0)
