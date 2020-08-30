@@ -8,7 +8,7 @@
      And the useage of reversed(),you need to create a new list and then put the list(reversed(array))
    </b>
   * Using numpy
-   ~
+~
     
     import numpy as np
     #The original NumPy array
@@ -17,5 +17,4 @@
     #reversing using flip() Method or flipud()
     res_arr=np.flip(new_arr)
     print("Resultant Reversed Array:",res_arr)
-  
-   ~
+~
