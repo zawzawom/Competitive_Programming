@@ -3,7 +3,7 @@
 * print('hello',end='') splict space
 #Reverse Array in 10 ways
  * Using slicing array[::-1]
- * Using reverse() or reversed() method array.reverse(),new_list = list(reversed(array))
+ * Using reverse() or reversed() method array.reverse(),new_list = list(reversed(array))<br>
    <b> If you use reverse() it will the order of actual list.Hence,the orignal list items is lost.
      And the useage of reversed(),you need to create a new list and then put the list(reversed(array))
    </b>
