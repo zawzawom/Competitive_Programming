@@ -10,6 +10,8 @@
   * Using numpy<br>
 ~
     
+    
+    
     import numpy as np
     #The original NumPy array
     new_arr=np.array(['A','s','k','P','y','t','h','o','n'])
