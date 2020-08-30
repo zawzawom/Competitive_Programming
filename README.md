@@ -7,8 +7,7 @@
    <b> If you use reverse() it will the order of actual list.Hence,the orignal list items is lost.
      And the useage of reversed(),you need to create a new list and then put the list(reversed(array))
    </b>
-  * Using numpy
-  
+  * Using numpy<br>
 ~
     
     import numpy as np
