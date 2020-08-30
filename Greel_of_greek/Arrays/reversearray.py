@@ -1,17 +1,41 @@
-for i in range(int(input())):
-    N,K = list(map(int,input().split()))
-    array = list(map(int,input().split()))
-    first = list()
-    second = list()
-    array  = list()
-    first.append(array[0:N+1])
-    for a  in range(len(first)-1,-1,-1):
-        array.append(first[a])
-    second.append(array[N-1:])
-    for b in range(len(second)-1,-1,-1):
-        array.append(second[b])
-    for a in range(len(array)):
-        print(array[a])
+def reverse(array,n,k):
+    i=0
+    while(i<n):
+        left = i
+        right = min(k-i-1,n-1)
+if __name__ == "__main__":
+    for _ in range(int(input())):
+        size,position = list(map,int,input().split())
+        array = list(map(int,input().split())
+        reverse(array,size,position)
 
         
-    print()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# #code
+# for _ in range(int(input())):
+#     N     = int(input())
+#     array = list(map(int,input().split()))
+#     array= array[::-1]
+#     for i in range(len(array)):
+#         print(array[i],end=' ')
+# print()
