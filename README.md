@@ -9,7 +9,7 @@
    </b>
   * Using numpy<br>
   
-~
+   ~
     
     
     
@@ -20,4 +20,4 @@
     #reversing using flip() Method or flipud()
     res_arr=np.flip(new_arr)
     print("Resultant Reversed Array:",res_arr)
-~
+  ~
