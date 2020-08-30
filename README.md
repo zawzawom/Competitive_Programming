@@ -9,8 +9,6 @@
    </b>
   * Using numpy
   
-  
-  
 ~
     
     import numpy as np
