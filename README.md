@@ -8,6 +8,9 @@
      And the useage of reversed(),you need to create a new list and then put the list(reversed(array))
    </b>
   * Using numpy
+  
+  
+  
 ~
     
     import numpy as np
